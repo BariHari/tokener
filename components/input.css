@@ -1,0 +1,23 @@
+/* ------------------- Input --------------------------*/
+
+  input[type=text], input[type=password]  {
+    padding: calc(var(--textFrameY) - var(--fieldBorderWidth)) var(--textFrameY);
+    width: 100%;
+    font: inherit;
+    color: inherit;
+    background-color: transparent; 
+    box-sizing: border-box;
+    border: var(--fieldBorderWidth) solid var(--grid-border-subtle);               /*<--- Design Token Alias */
+    outline: none;
+    margin-top: var(--space-1);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  input[type=text]:focus {
+    border: var(--fieldBorderWidth) solid var(--color-primary-500);                /*<--- Design Token */
+  }
+
+  input[type=password]:focus {
+    border: var(--fieldBorderWidth) solid var(--color-primary-500);                /*<--- Design Token */
+  }

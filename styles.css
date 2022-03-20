@@ -1,0 +1,97 @@
+
+/* Design Tokens */
+@import '/tokens/color.css';
+@import '/tokens/space.css';
+@import '/tokens/font.css';
+@import '/tokens/textstyle.css';
+@import '/tokens/font.css';
+@import '/tokens/shadow.css';
+@import '/assets/images.css';
+@import '/assets/icons.css';
+
+/* Components */
+@import '/components/button.css';
+@import '/components/logo.css';
+@import '/components/avatar.css';
+@import '/components/input.css';
+@import '/components/panel-sidebar.css';
+@import '/components/panel-main.css';
+@import '/components/panel-details.css';
+
+
+/* ------------------- Global --------------------------*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --textFrameRatio: 2.26;
+    --textFrameY: 0.64em;
+    --textFrameX: calc(var(--textFrameY) * var(--textFrameRatio));
+
+}
+
+:root {
+    --radius: 0.09rem;
+    --fieldBorderWidth: 2px;
+}
+
+
+
+/* ------------------- Layout --------------------------*/
+
+
+.emailWrapper {
+    color: var(--text-body);                                                   /*<--- Design Token Alias */
+    display: grid;
+    grid-template-columns: 17% 52% calc(100% - 17% - 52%);
+    min-height: 100vh;
+    background: var(--surface-light);                                          /*<--- Design Token Alias */
+}
+
+.sidebar {
+    border-right: 1px solid var(--grid-border-faint);                          /*<--- Design Token Alias */
+    padding: var(--space-5);
+}
+
+.detailsPanel {
+    border-left: 1px solid var(--grid-border-faint);                            /*<--- Design Token Alias */
+    padding: var(--space-8);
+    background-color: var(--surface-primary-faint);                             /*<--- Design Token Alias */
+}
+
+
+
+/* ------------------- Media Query --------------------------*/
+
+
+@media (max-width: 1100px) {
+    .emailWrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .detailsPanel {
+        width: 100%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* ------------------- Utilities --------------------------*/
+
+
+

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url("CircularStd-Book.woff2") format("woff2"),
+    url("CircularStd-Book.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Optimist-Light";
+  src: url("Optimist-Light.woff2") format("woff2"),
+    url("Optimist-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Optimist-Regular";
+  src: url("Optimist-Regular.woff2") format("woff2"),
+    url("Optimist-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Optimist-SemiBold";
+  src: url("Optimist-SemiBold.woff2") format("woff2"),
+    url("Optimist-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-display: swap;
+}

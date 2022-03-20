@@ -1,0 +1,56 @@
+/* ------------------- Button --------------------------*/
+
+.button {
+    padding: var(--textFrameY) var(--textFrameX);
+    border-radius: 2px;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+  }
+  
+/* ---------- Primary ----------*/
+
+  .button-primary {
+    background-color: var(--button-surface-primary);                                  /*<--- Design Token Alias */
+    color: var(--button-text-primary);                                                /*<--- Design Token Alias */
+    border: none;
+  }
+  
+  .button-primary:hover {
+    background-color: var(--button-hover-primary);                                    /*<--- Design Token Alias */
+  }
+
+  /* ---------- Secondary ----------*/
+
+  .button-secondary {
+    background-color: var(--button-surface-secondary);                                /*<--- Design Token Alias */
+    color: var(--text-light);                                                         /*<--- Design Token Alias */
+    border: none;
+  }
+  
+  .button-secondary:hover {
+    background-color: var(--button-hover-secondary);                                  /*<--- Design Token Alias */
+  }
+  
+/* ---------- Outline ----------*/
+
+  .button-outline {
+    background-color: var(--button-surface-outline);                                  /*<--- Design Token Alias */
+    color: var(--button-text-outline);                                                /*<--- Design Token Alias */
+    border: var(--fieldBorderWidth) solid var(--button-surface-outline-border);       /*<--- Design Token Alias */ 
+  }
+  
+  .button-outline:hover {
+    background-color: var(--button-hover-outline);                                    /*<--- Design Token Alias */ 
+  }
+
+/* ---------- Destructive ----------*/
+
+  .button-destructive {
+    background-color: var(--button-surface-destructive);                              /*<--- Design Token Alias */
+    color: var(--button-text-destructive);                                            /*<--- Design Token Alias */
+    border: none;
+  }
+  
+  .button-destructive:hover {
+    background-color: var(--button-hover-destructive);                                /*<--- Design Token Alias */
+  }

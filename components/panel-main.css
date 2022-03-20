@@ -1,0 +1,121 @@
+/* ------------------- Panel Main --------------------------*/
+
+main {
+  padding: var(--space-8);
+}
+
+/* ------------------- Tab --------------------------*/
+
+
+.tabs {
+  display: flex;
+  margin-bottom: var(--space-5);
+}
+
+.tab {
+  border-bottom: 2px solid transparent;  
+  padding-bottom: var(--space-1);
+}
+
+.tab:not(.active) {
+  cursor: pointer;
+  color: var(--text-subtle);                                     /*<--- Design Token Alias */
+}
+
+.tab+.tab {
+  margin-left: var(--space-5);
+}
+
+.tab.active {
+  border-color: var(--text-body);                                /*<--- Design Token Alias */
+}
+
+/* ------------------- Search --------------------------*/
+
+.searchSection {
+  margin-bottom: var(--space-8);
+}
+
+
+/* ------------------- Post --------------------------*/
+
+
+.postAvatar {
+  width: 3rem;
+  height: 3rem;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  grid-gap: var(--space-5);
+  padding: var(--space-5);
+  margin-bottom: var(--space-8);
+  background-color: var(--surface-neutral-faint);                /*<--- Design Token Alias */
+}
+
+.postAuthor {
+  padding-top: var(--space-4);
+}
+
+.postContent {
+  margin: var(--space-5) 0 var(--space-5) 0; 
+}
+
+.postDate {
+  color: var(--text-body)                                        /*<--- Design Token Alias */
+}
+
+.postMain a {
+  color: var(--text-link);                                       /*<--- Design Token Alias */
+}
+
+.postMain a:hover {
+  color: var(--text-link-hover);                                 /*<--- Design Token Alias */
+}
+
+
+
+/* ------------------- Email --------------------------*/
+
+.emails {
+  border-top: 1px solid var(--grid-border-faint);                /*<--- Design Token Alias */
+  margin-bottom: var(--space-7);
+}
+
+.email {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--grid-border-faint);             /*<--- Design Token Alias */
+  min-width: 0;
+  min-width: 100%;
+}
+
+.email:hover {
+  background-color: var(--grid-row-hover);                       /*<--- Design Token Alias */
+}
+
+.listCell+.listCell {
+  padding-left: var(--space-5);
+}
+
+.listCell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+  min-width: 0;
+  color: var(--text-body)                                        /*<--- Design Token Alias */
+}
+
+
+/* ------------------- Form --------------------------*/
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  grid-gap: var(--space-3);
+  align-items: end;
+  margin-bottom: var(--space-7);
+}
