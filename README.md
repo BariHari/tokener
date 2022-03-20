@@ -2,6 +2,6 @@
 
 ## Installation
 
-You can install the Specify CLI via Yarn or NPM:
+You can install the Specify CLI via Yarn:
 
 yarn add --dev @specifyapp/cli
