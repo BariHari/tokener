@@ -1,65 +1,65 @@
 .context {
-  font-family: Optimist-SemiBold, serif;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1;
+  font-family: CircularStd-Black, serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 0.86;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 .label-l {
-  font-family: Optimist-Regular, serif;
-  font-weight: 400;
+  font-family: CircularStd-Bold, serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.5px;
 }
 
 .label-m {
-  font-family: Optimist-Regular, serif;
-  font-weight: 400;
+  font-family: CircularStd-Bold, serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1;
 }
 
 .label-s {
-  font-family: Optimist-Regular, serif;
-  font-weight: 400;
+  font-family: CircularStd-Bold, serif;
+  font-weight: 700;
   font-size: 12px;
   line-height: 1.33;
 }
 
 .text-2-xl {
-  font-family: Optimist-Regular, serif;
-  font-weight: 400;
+  font-family: CircularStd-Book, serif;
+  font-weight: 300;
   font-size: 45px;
-  line-height: 1.42;
+  line-height: 1.24;
 }
 
 .text-l {
-  font-family: Optimist-Regular, serif;
-  font-weight: 400;
+  font-family: CircularStd-Bold, serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 1.33;
 }
 
 .text-m {
-  font-family: Optimist-Regular, serif;
-  font-weight: 400;
+  font-family: CircularStd-Book, serif;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.6;
 }
 
 .text-s {
-  font-family: Optimist-Regular, serif;
-  font-weight: 400;
+  font-family: CircularStd-Book, serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .text-xl {
-  font-family: Optimist-Regular, serif;
-  font-weight: 400;
+  font-family: CircularStd-Book, serif;
+  font-weight: 300;
   font-size: 40px;
   line-height: 1.4;
 }
@@ -72,43 +72,43 @@
 }
 
 .title-2-xl {
-  font-family: Optimist-Light, serif;
-  font-weight: 300;
+  font-family: DMSerifDisplay-Regular, serif;
+  font-weight: 400;
   font-size: 45px;
-  line-height: 1.42;
+  line-height: 1.24;
 }
 
 .title-l {
-  font-family: Optimist-Light, serif;
-  font-weight: 300;
+  font-family: DMSerifDisplay-Regular, serif;
+  font-weight: 400;
   font-size: 24px;
   line-height: 1.33;
 }
 
 .title-m {
-  font-family: Optimist-Light, serif;
-  font-weight: 300;
+  font-family: DMSerifDisplay-Regular, serif;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.6;
 }
 
 .title-s {
-  font-family: Optimist-Light, serif;
-  font-weight: 300;
+  font-family: DMSerifDisplay-Regular, serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .title-xl {
-  font-family: Optimist-Light, serif;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 1.33;
+  font-family: DMSerifDisplay-Regular, serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.4;
 }
 
 .title-xs {
-  font-family: Optimist-Light, serif;
-  font-weight: 300;
+  font-family: DMSerifDisplay-Regular, serif;
+  font-weight: 400;
   font-size: 11px;
   line-height: 1.45;
 }
